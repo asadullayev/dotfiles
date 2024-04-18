@@ -1,0 +1,14 @@
+# Ignore everything
+/*
+
+# Except this files
+!.gitignore
+!README.md
+!.config/
+
+# Remove all unneeded
+.config/*
+
+# Re-add needed
+!.config/alacritty/
+!.config/tmux/
