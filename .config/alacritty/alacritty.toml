@@ -29,3 +29,5 @@ hide_when_typing = true
 
 [window]
 dimensions = { columns = 110, lines = 31 }
+opacity = 1
+blur = false
