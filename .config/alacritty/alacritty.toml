@@ -1,3 +1,4 @@
+import = ["~/.config/alacritty/theme.toml"]
 live_config_reload = true
 shell = { program = "tmux", args = ["new-session", "-A", "-s", "general"] }
 
@@ -5,10 +6,6 @@ shell = { program = "tmux", args = ["new-session", "-A", "-s", "general"] }
 duration = 600
 color = "#292929"
 animation = "Linear"
-
-[colors]
-draw_bold_text_with_bright_colors = true
-primary = { background = "#282828", foreground = "#ebdbb2" }
 
 [cursor]
 thickness = 0.15
