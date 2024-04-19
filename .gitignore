@@ -15,3 +15,4 @@
 !.config/nvim/
 .config/nvim/*
 !.config/nvim/*.lua
+!.config/wallpapers/
