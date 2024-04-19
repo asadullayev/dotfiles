@@ -12,3 +12,6 @@
 # Re-add needed
 !.config/alacritty/
 !.config/tmux/
+!.config/nvim/
+.config/nvim/*
+!.config/nvim/*.lua
