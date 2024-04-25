@@ -51,3 +51,4 @@ vim.cmd([[colorscheme gruvbox]])
 
 vim.keymap.set('n', '<M-Up>', ':m-2<CR>')
 vim.keymap.set('n', '<M-Down>', ':m+<CR>')
+vim.keymap.set('n', '<C-b>', ':NvimTreeToggle<CR>', { remap = true })
