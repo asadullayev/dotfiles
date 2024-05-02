@@ -1,0 +1,63 @@
+{
+    "breadcrumbs.enabled": false,
+    "debug.console.fontSize": 18,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.experimental.showMoves": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "editor.cursorBlinking": "solid",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.lineNumbers": "on",
+    "editor.formatOnSave": true,
+    "explorer.decorations.colors": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.venv": true,
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "security.workspace.trust.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.customGlyphs": false,
+    "terminal.integrated.cursorStyle": "line",
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.startupEditor": "none",
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.tips.enabled": false,
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "multiple",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "ruff.lint.args": [
+        "--config=pyproject.toml"
+    ],
+    "ruff.format.args": [
+        "--config=pyproject.toml"
+    ],
+    "window.title": "${rootName}",
+    "files.autoSave": "off",
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+}

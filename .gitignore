@@ -11,9 +11,10 @@
 
 # Re-add needed
 !.config/alacritty/
-!.config/tmux/
+!.config/Code
+!.config/conky
 !.config/nvim/
 .config/nvim/*
 !.config/nvim/*.lua
+!.config/tmux/
 !.config/wallpapers/
-!.config/conky
