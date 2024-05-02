@@ -18,3 +18,7 @@
 !.config/nvim/*.lua
 !.config/tmux/
 !.config/wallpapers/
+
+!.bashrc
+!.bash_aliases
+!.profile
