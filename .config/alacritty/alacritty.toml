@@ -28,3 +28,4 @@ hide_when_typing = true
 dimensions = { columns = 110, lines = 31 }
 opacity = 1
 blur = false
+dynamic_title = true
