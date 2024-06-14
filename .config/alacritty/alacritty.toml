@@ -3,9 +3,9 @@ live_config_reload = true
 shell = { program = "tmux", args = ["new-session", "-A", "-s", "general"] }
 
 [bell]
-# duration = 600
-# color = "#292929"
-# animation = "Linear"
+duration = 0 # 600
+color = "#292929"
+animation = "Ease"
 command = { program = "paplay", args = [
     "/home/fuad/.config/sounds/bell-terminal.ogg",
 ] }

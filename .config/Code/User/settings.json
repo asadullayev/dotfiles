@@ -12,17 +12,22 @@
     "editor.lineNumbers": "on",
     "editor.formatOnSave": true,
     "explorer.decorations.colors": false,
+    "files.autoSave": "off",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.exclude": {
         "**/__pycache__": true,
-        "**/.venv": true,
+        "**/.mypy_cache": true,
+        "**/.venv": true
     },
     "git.openRepositoryInParentFolders": "always",
     "git.confirmSync": false,
     "git.autofetch": true,
     "git.enableSmartCommit": true,
+    "search.exclude": {
+        "**/.mypy_cache": true
+    },
     "security.workspace.trust.enabled": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 18,
@@ -30,6 +35,7 @@
     "terminal.integrated.cursorStyle": "line",
     "window.menuBarVisibility": "toggle",
     "window.commandCenter": false,
+    "window.title": "${rootName}",
     "workbench.colorTheme": "Gruvbox Dark Medium",
     "workbench.startupEditor": "none",
     "workbench.editor.decorations.badges": false,
@@ -54,10 +60,8 @@
     "ruff.format.args": [
         "--config=pyproject.toml"
     ],
-    "window.title": "${rootName}",
-    "files.autoSave": "off",
     "hexeditor.columnWidth": 16,
     "hexeditor.showDecodedText": true,
     "hexeditor.defaultEndianness": "little",
-    "hexeditor.inspectorType": "aside",
+    "hexeditor.inspectorType": "aside"
 }
