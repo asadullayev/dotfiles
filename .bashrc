@@ -47,3 +47,6 @@ bind 'TAB:complete'
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
+
+# Setup GPG_TTY
+export GPG_TTY=$(tty)

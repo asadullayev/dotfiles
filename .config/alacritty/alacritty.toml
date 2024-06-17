@@ -3,12 +3,12 @@ live_config_reload = true
 shell = { program = "tmux", args = ["new-session", "-A", "-s", "general"] }
 
 [bell]
-duration = 0 # 600
+duration = 600
 color = "#292929"
 animation = "Ease"
-command = { program = "paplay", args = [
-    "/home/fuad/.config/sounds/bell-terminal.ogg",
-] }
+# command = { program = "paplay", args = [
+#     "/home/fuad/.config/sounds/bell-terminal.ogg",
+# ] }
 
 [cursor]
 thickness = 0.15
@@ -32,3 +32,4 @@ dimensions = { columns = 110, lines = 31 }
 opacity = 1
 blur = false
 dynamic_title = true
+padding = { x = 10, y = 0 }

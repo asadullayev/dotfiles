@@ -12,6 +12,8 @@
 # Re-add needed
 !.config/alacritty/
 !.config/Code
+.config/Code/*
+!.config/Code/User/settings.json
 !.config/conky
 !.config/nvim/
 .config/nvim/*
