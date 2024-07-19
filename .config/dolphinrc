@@ -1,0 +1,31 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[General]
+EditableUrl=true
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowSelectionToggle=false
+ShowStatusBar=false
+Version=202
+ViewPropsTimestamp=2024,6,15,23,2,35.097
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1536x864 screen: Height=529
+1536x864 screen: Width=405
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,windowsimagethumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere

@@ -46,7 +46,6 @@
     "workbench.iconTheme": "gruvbox-material-icon-theme",
     "workbench.editor.empty.hint": "hidden",
     "workbench.sideBar.location": "right",
-    "workbench.editor.showTabs": "multiple",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -64,5 +63,9 @@
     "hexeditor.showDecodedText": true,
     "hexeditor.defaultEndianness": "little",
     "hexeditor.inspectorType": "aside",
-    "window.titleBarStyle": "custom"
+    "editor.defaultFormatter": "ms-python.python",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.simpleDialog.enable": true
 }

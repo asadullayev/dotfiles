@@ -20,6 +20,8 @@
 !.config/nvim/*.lua
 !.config/tmux/
 !.config/wallpapers/
+!.config/sounds/
+!.config/dolphinrc
 
 !.bashrc
 !.bash_aliases

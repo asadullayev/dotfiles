@@ -6,12 +6,12 @@ shell = { program = "tmux", args = ["new-session", "-A", "-s", "general"] }
 duration = 600
 color = "#292929"
 animation = "Ease"
-# command = { program = "paplay", args = [
-#     "/home/fuad/.config/sounds/bell-terminal.ogg",
-# ] }
+command = { program = "pw-cat", args = [
+    "-p", "/home/fuad/.config/sounds/bell.ogg",
+] }
 
 [cursor]
-thickness = 0.15
+thickness = 0.1
 unfocused_hollow = true
 style = { blinking = "Off", shape = "Beam" }
 
@@ -28,8 +28,9 @@ normal = { family = "Fira Code" }
 hide_when_typing = true
 
 [window]
-dimensions = { columns = 110, lines = 31 }
+dimensions = { columns = 140, lines = 36 }
 opacity = 1
 blur = false
 dynamic_title = true
-padding = { x = 10, y = 0 }
+padding = { x = 10, y = 10 }
+decorations = "None"
