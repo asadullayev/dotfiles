@@ -28,7 +28,8 @@ normal = { family = "Fira Code" }
 hide_when_typing = true
 
 [window]
-dimensions = { columns = 140, lines = 36 }
+# dimensions = { columns = 140, lines = 36 }
+startup_mode = "Maximized"
 opacity = 1
 blur = false
 dynamic_title = true

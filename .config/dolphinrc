@@ -17,8 +17,8 @@ Places Icons Auto-resize=false
 Places Icons Static Size=22
 
 [KPropertiesDialog]
-1536x864 screen: Height=529
-1536x864 screen: Width=405
+1536x864 screen: Height=457
+1536x864 screen: Width=396
 
 [MainWindow]
 MenuBar=Disabled
@@ -29,3 +29,4 @@ Plugins=exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,windowsimag
 
 [Search]
 Location=Everywhere
+What=Content
