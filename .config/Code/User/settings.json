@@ -1,46 +1,37 @@
 {
+    "telemetry.telemetryLevel": "off",
     "diffEditor.experimental.showMoves": true,
     "diffEditor.hideUnchangedRegions.enabled": true,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.formatOnSave": true,
-    "explorer.decorations.colors": false,
     "files.autoSave": "off",
     "git.enableSmartCommit": true,
     "search.exclude": {
         "**/.mypy_cache": true
     },
     "security.workspace.trust.enabled": false,
-    "telemetry.telemetryLevel": "off",
     "terminal.integrated.customGlyphs": false,
     "terminal.integrated.cursorStyle": "line",
     "window.menuBarVisibility": "toggle",
     "window.title": "${rootName}",
     "workbench.tips.enabled": false,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
     "[python]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "charliermarsh.ruff"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll.ruff": "explicit"
+        }
     },
-    "ruff.lint.args": [
-        "--config=pyproject.toml"
-    ],
-    "ruff.format.args": [
-        "--config=pyproject.toml"
-    ],
-    "editor.defaultFormatter": "ms-python.python",
+    "ruff.configuration": "pyproject.toml",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "files.simpleDialog.enable": true,
-    "window.titleBarStyle": "custom",
-    "window.customTitleBarVisibility": "windowed",
     "git.openRepositoryInParentFolders": "always",
     "workbench.activityBar.location": "hidden",
     "editor.minimap.enabled": false,
     "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
     "workbench.colorTheme": "Gruvbox Dark Medium",
     "editor.fontSize": 16,
     "editor.fontFamily": "'Fira Code'",
@@ -49,29 +40,29 @@
     "terminal.integrated.fontSize": 16,
     "chat.editor.fontSize": 16,
     "markdown.preview.fontSize": 16,
-    "editor.glyphMargin": true,
-    "editor.folding": true,
+    "editor.glyphMargin": false,
+    "editor.folding": false,
     "breadcrumbs.enabled": false,
-    "editor.scrollbar.vertical": "auto",
     "editor.guides.indentation": false,
     "editor.cursorBlinking": "solid",
     "editor.guides.highlightActiveBracketPair": false,
-    "editor.renderLineHighlight": "line",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.renderLineHighlight": "gutter",
     "editor.semanticHighlighting.enabled": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.occurrencesHighlight": "off",
     "editor.selectionHighlight": true,
     "editor.scrollBeyondLastLine": false,
-    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": false,
     "files.exclude": {
         ".mypy_cache": true,
         ".pytest_cache": true,
         ".venv": true,
         ".vscode": true,
-        "**/__pycache__": true
+        "**/__pycache__": true,
+        ".ruff_cache": true
     },
     "workbench.sideBar.location": "right",
-    "workbench.iconTheme": "gruvbox-material-icon-theme",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -83,7 +74,7 @@
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.decorations.badges": false,
     "workbench.editor.decorations.colors": false,
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "diffEditor.renderSideBySide": false,
     "editor.overviewRulerBorder": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -99,10 +90,32 @@
     },
     "editor.matchBrackets": "near",
     "workbench.editor.tabSizing": "fixed",
-    "window.density.editorTabHeight": "compact",
-    // "terminal.integrated.defaultLocation": "editor",
     "terminal.integrated.cursorWidth": 0.5,
     "editor.cursorWidth": 1,
     "terminal.integrated.scrollback": 10000,
-    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.colorCustomizations": {
+        "editorOverviewRuler.warningForeground": "#00000000",
+        "editorOverviewRuler.errorForeground": "#00000000",
+        "editorOverviewRuler.bracketMatchForeground": "#00000000",
+        // "sideBarTitle.foreground": "#00000000",
+        "editorOverviewRuler.modifiedForeground": "#00000000",
+        // "editor.foreground": "#ebdbb2",
+        // "scrollbarSlider.activeBackground": "#272727",
+        // "scrollbarSlider.background": "#272727",
+        // "scrollbarSlider.hoverBackground": "#272727"
+    },
+    "explorer.decorations.colors": false,
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "breadcrumbs.icons": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.commandCenter": false,
+    "window.density.editorTabHeight": "compact",
+    "window.experimentalControlOverlay": false,
+    "window.restoreFullscreen": true,
+    "window.newWindowDimensions": "maximized",
+    "window.openFoldersInNewWindow": "on",
+    "workbench.statusBar.visible": false,
+    "editor.cursorSurroundingLines": 5,
+    "editor.find.addExtraSpaceOnTop": false
 }
